@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.8)),
+    url("https://images.openai.com/static-rsc-4/bVMyerM85xpNWmojm564xQvNSGAZ2Lyfj7Xz1WoRREMyys8Pgy1Syh0CRsLfzBLx9ulWml9KQCjrS2eeVg6HfgCJ0cZHgXOJ6UtWDZj6Lyh3UdeJ3ScE5k4aDyUwZM5y4jEnGqvHTGesrFeFYg8W4RrsxyV5RYaYWMuiUeoMLQA9Ex9RT8k_EV1-KhF7F9hT?purpose=fullsize");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid rgba(0, 255, 255, 0.3);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #00e5ff;
+  text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00e5ff;
+  text-shadow: 0 0 8px #00e5ff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 50px;
+  border-radius: 20px;
+  max-width: 700px;
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.25);
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: #dddddd;
+}
+
+.hero button {
+  padding: 14px 28px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #8a2be2, #00e5ff);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffffff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 229, 255, 0.25);
+  border-top: 2px solid rgba(0, 255, 255, 0.3);
+  font-size: 0.95rem;
+}
